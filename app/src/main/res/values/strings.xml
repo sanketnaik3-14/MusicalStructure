@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+
+    <string name="music_main_activity">MAIN ACTIVITY</string>
+    <string name="music_main_activity_desc">This page is the main activity users see when they first enter the application
+    this page describes all the navigation paths the user can take. This page contains path for
+        artists,composers,now playing/bottom navigation
+    ,albums,playlists,recently played, genres</string>
+
+    <string name="artists">ARTISTS</string>
+    <string name="composers">COMPOSERS</string>
+    <string name="control_navigation">PLAYCONTROL</string>
+    <string name="albums">ALBUMS</string>
+    <string name="playlists">PLAYLISTS</string>
+    <string name="recently_played">RECENTLY PLAYED</string>
+    <string name="genres">GENRE</string>
+    <string name="title_activity_artist">ArtistActivity</string>
+    <string name="home">HOME</string>
+
+
+    <string name="artist_activity">Artist Activity</string>
+    <string name="artist_activity_desc">This is the activity where the user can find all the songs sorted
+        alphabetically. The hurdle will be to load the data in the back ground so that the main activity loads quickkly</string>
+
+    <string name="composer_activity">Composer Activity</string>
+    <string name="composer_activity_desc"> This is the activity where the user can find composer of all the songs on his device
+    sorted alphabetically. The hurdle will be to access metadata of songs and display the lenght of the song, album cover etc</string>
+
+    <string name="control_activity">Playback Control Activity</string>
+    <string name="control_activity_desc"> This is the activity where the user can control the audio playback. The user can use
+    the functions like playing, pausing, skipping songs. The user can also add songs to the playlists. The user can use
+    equalizer to customize and improve the output of the audio he is listening. This activity also showcases the visualizer
+    in the form of graphics which give a soothing feeling to the user and functions on the freuency of the song.</string>
+
+    <string name="album_activity">Album</string>
+    <string name="album_activity_desc">This is the activity which gathers the songs from a particular album
+    and shows it to the user. Albums will be sorted alphabetically. Albums also can be sorted based on the number of songs
+    each album have. </string>
+
+    <string name="playlist_activity">Playlist</string>
+    <string name="playlist_activity_desc"> This is the activity which displays auto generated plalylists as well as user generated
+    playlists for easy access to the user.</string>
+
+    <string name="recentlyplayed_activity">Recently Played</string>
+    <string name="recentlyplayed_activity_desc"> This is the activity which lists songs that have been listened recently
+    so that the user can access them easily. </string>
+
+    <string name="genre_activity">Genre</string>
+    <string name="genre_activity_desc">This is the activity where the audio are sorted based on the stored metadata , wherein the
+    metadata has the information of the genre of the audio. Audio of similar genre are gathered together so that he can
+    have different ways to access the audio</string>
+
+
+</resources>

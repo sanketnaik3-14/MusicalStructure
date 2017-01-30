@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanket.musicalstructure.GenreActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_genre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Heading"
+            android:text="@string/genre_activity" />
+
+        <TextView
+            android:background="@color/genrePlayedTextViewBackground"
+            style="@style/Description"
+            android:text="@string/genre_activity_desc" />
+
+        <Button
+            android:background="@drawable/roundedbutton8"
+            android:id="@+id/buttonHome7"
+            style="@style/ButtonTheme"
+            android:text="@string/home" />
+
+        <Button
+            android:background="@drawable/roundedbutton8"
+            android:id="@+id/buttonArtist7"
+            style="@style/ButtonTheme"
+            android:text="@string/artists" />
+
+        <Button
+            android:background="@drawable/roundedbutton8"
+            android:id="@+id/buttonComposer7"
+            style="@style/ButtonTheme"
+            android:text="@string/composers" />
+
+        <Button
+            android:background="@drawable/roundedbutton8"
+            android:id="@+id/buttonControl7"
+            style="@style/ButtonTheme"
+            android:text="@string/control_navigation" />
+
+        <Button
+            android:background="@drawable/roundedbutton8"
+            android:id="@+id/buttonAlbum7"
+            style="@style/ButtonTheme"
+            android:text="@string/albums" />
+
+        <Button
+            android:background="@drawable/roundedbutton8"
+            android:id="@+id/buttonPlaylist7"
+            style="@style/ButtonTheme"
+            android:text="@string/playlists" />
+
+        <Button
+            android:background="@drawable/roundedbutton8"
+            android:id="@+id/buttonRecentlyPlayed7"
+            style="@style/ButtonTheme"
+            android:text="@string/recently_played" />
+
+    </LinearLayout>
+</ScrollView>
